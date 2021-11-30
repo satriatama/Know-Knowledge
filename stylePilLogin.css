@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;500;600;700&display=swap");
+:root {
+  --darkblue: #14325f;
+  --lightblue: #149ff0;
+  --birulangit: #b5e1fa;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: 150px;
+  min-height: 100vh;
+}
+.wrapper {
+  width: 350px;
+  height: 460px;
+  background: var(--lightblue);
+  color: white;
+  border-radius: 20px;
+  padding: 30px 30px 25px;
+}
+.headLog {
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+button {
+  padding: 7px 35px;
+  width: 280px;
+  margin: 15px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  height: 45px;
+  font-size: 15px;
+  text-align: left;
+  color: var(--darkblue);
+  background-color: var(--birulangit);
+}
+button:hover {
+  cursor: pointer;
+}
+.daf {
+  text-align: center;
+  margin-top: 50px;
+  color: #b5e1fa;
+}
+.daf a {
+  text-decoration: none;
+  color: white;
+}
+.KKL {
+  color: var(--lightblue);
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 65px;
+  right: 900px;
+}
+.KKL header {
+  position: relative;
+  top: 10px;
+}
+.icon {
+  position: absolute;
+  top: 470px;
+  right: 1050px;
+}
+.bulet {
+  position: relative;
+  top: 70px;
+  z-index: 999999999;
+}
+.segitiga {
+  position: relative;
+  bottom: 35px;
+}

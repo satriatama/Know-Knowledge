@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;500;600;700&display=swap");
+:root {
+  --darkblue: #14325f;
+  --lightblue: #149ff0;
+  --birulangit: #b5e1fa;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.wrapper {
+  width: 350px;
+  height: 460px;
+  background: var(--lightblue);
+  color: white;
+  border-radius: 20px;
+  padding: 30px 30px 25px;
+}
+.headLog {
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.username {
+  color: var(--birulangit);
+}
+.password {
+  color: var(--birulangit);
+}
+input {
+  border-radius: 15px;
+  border: none;
+  height: 37px;
+  width: 290px;
+  margin: 15px 0;
+}
+button {
+  padding: 5px 30px;
+  background-color: var(--darkblue);
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 189px;
+  margin-top: 15px;
+}
+button:hover {
+  cursor: pointer;
+  color: var(--darkblue);
+  background-color: var(--birulangit);
+}
+.daf {
+  text-align: center;
+  margin-top: 30px;
+  color: #b5e1fa;
+}
+.daf a {
+  text-decoration: none;
+  color: white;
+}
+.KKL {
+  color: var(--lightblue);
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 500px;
+  right: 1050px;
+}
+.KKL header {
+  position: relative;
+  top: 7px;
+}
+.icon {
+  position: absolute;
+  left: 1150px;
+}
+.bulet {
+  position: relative;
+  top: 250px;
+}
+.segitiga {
+  position: relative;
+  bottom: 250px;
+}

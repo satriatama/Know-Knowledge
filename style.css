@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;500;600;700&display=swap");
+:root {
+  --darkblue: #14325f;
+  --lightblue: #149ff0;
+  --birulangit: #b5e1fa;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: white;
+}
+.kkl {
+  position: absolute;
+  top: -210px;
+  font-size: 20px;
+  left: -20px;
+  font-weight: bolder;
+  font-style: normal;
+  text-align: center;
+  color: var(--lightblue);
+  left: 200px;
+}
+.kkl div {
+  position: relative;
+  top: -7px;
+}
+.wrapper {
+  position: relative;
+  text-align: center;
+  width: 500px;
+  background: var(--lightblue);
+  color: white;
+  border-radius: 40px;
+  padding: 30px 30px 25px;
+  left: -50px;
+}
+.judul {
+  margin-bottom: 90px;
+  margin-top: 0;
+  position: relative;
+  padding: 0;
+  top: -15px;
+  margin: 0;
+}
+.judul header {
+  font-size: 30px;
+  font-weight: bold;
+}
+.judul p {
+  font-size: 17px;
+  font-weight: normal;
+  position: relative;
+  top: -5px;
+}
+.buttons button {
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+  color: var(--darkblue);
+  background-color: var(--birulangit);
+  border: none;
+  border-radius: 30px;
+}
+.icon {
+  position: absolute;
+  bottom: -200px;
+  left: 230px;
+}
+.icon .bulet {
+  position: relative;
+  bottom: -50px;
+  left: 45px;
+}
+.icon .segitiga {
+  position: relative;
+  transform: rotate(180deg);
+  bottom: 3px;
+}
+a button {
+  cursor: pointer;
+  margin: 0;
+}
+a button:hover {
+  background: var(--darkblue);
+  color: var(--lightblue);
+}

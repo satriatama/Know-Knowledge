@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;500;600;700&display=swap");
+:root {
+  --darkblue: #14325f;
+  --lightblue: #149ff0;
+  --birulangit: #b5e1fa;
+}
+.row {
+  margin: 80px;
+  width: 100%;
+}
+.col-4 {
+  width: 230px;
+  background-color: var(--lightblue);
+  border-radius: 20px;
+  height: 460px;
+}
+.PL {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 7px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  padding: 5px 20px 20px 20px;
+  background-color: var(--lightblue);
+  color: white;
+}
+
+.col-4 .list-group-item {
+  display: block;
+  border-radius: 20px;
+  padding: 5px 15px;
+  background-color: var(--lightblue);
+  border: none;
+  color: white;
+}
+.kelas.active {
+  background-color: white;
+  color: var(--lightblue);
+}
+.kelas:active {
+  background-color: var(--darkblue);
+  color: white;
+}
+.col-8 {
+  margin-left: 50px;
+}
+.atasnya {
+  color: var(--lightblue);
+}
+.KKL {
+  font-size: 35px;
+  font-weight: bold;
+}
+.slmtGuru {
+  font-size: 17px;
+  position: relative;
+  top: -5px;
+}
+.profilBtn img {
+  position: relative;
+  bottom: 64px;
+  margin-left: 94.5%;
+}
+.indonesia {
+  margin-left: 50px;
+}
+.indonesia:hover {
+  margin: -10px 0 -10px 40px;
+  width: 210px;
+}
+.Matematika {
+  margin-left: 50px;
+}
+.Matematika:hover {
+  margin: -10px 0 -10px 40px;
+  width: 210px;
+}
+.fisika:hover {
+  margin: -10px 0 -10px -10px;
+  width: 210px;
+}
